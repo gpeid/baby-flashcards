@@ -1,6 +1,6 @@
 import "./App.css";
 import FlashCard from "./components/FlashCard";
-import { alphabet } from "./data/Alphabet";
+import { alphabet } from "./data/alphabet";
 
 function App() {
   return (
