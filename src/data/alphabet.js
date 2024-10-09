@@ -12,7 +12,7 @@ export const alphabet = [
     content: ["banana", "boat", "xbox", "butterfly", "ben", "blue"],
   },
   { letter: "c", content: ["carrot", "car", "cat", "cube", "cow"] },
-  { letter: "d", content: ["durian", "duck", "dinosaur, diamond", "dog"] },
+  { letter: "d", content: ["durian", "duck", "dinosaur", "diamond", "dog"] },
   { letter: "e", content: ["egg", "elephant"] },
   { letter: "f", content: ["frankie", "flower"] },
   { letter: "g", content: ["green", "goat"] },
