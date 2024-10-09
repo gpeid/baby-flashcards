@@ -8,19 +8,18 @@ const FlashCard = ({ content }) => {
     <>
       <Card
         sx={{
-          width: "100vh",
           height: "100vh",
           display: "flex",
-          alignItems: "center",
           justifyContent: "center",
           cursor: "pointer",
+          position: "relative",
         }}
         variant="outlined"
         onClick={() => {
           setShowContent(!showContent);
         }}
       >
-        <Box>
+        <Box sx={{ position: "absolute", bottom: "50%" }}>
           <CardContent>
             <Typography variant="h1" component="div">
               {content.letter}
